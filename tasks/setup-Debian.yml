@@ -7,5 +7,5 @@
 
 - name: Install python-pip via apt.
   apt:
-    name: {{ awscli_pip_package }}
+    name: "{{ awscli_pip_package }}"
   become: yes
